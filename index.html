@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Criptografo Alura-One</title>
+
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<header>
+				<h1><img src="imagens\Vector.png"></h1>
+
+		</header>
+	
+		<main>
+			<section class="tela">
+				<div class="principal">
+				
+					<label for="tela-cript"></label>
+					<textarea placeholder="Digite seu texto" cols="60" rows="20" id="tela-cript" class="campo-texto"  required></textarea>
+					<br>
+					<p>⚠ Apenas letras minúsculas e sem acento.</p>
+					<input type="submit" value="Criptografar" class="botao" id="cript">
+					<input type="submit" value="Descriptografar" class="botao" id="desCript">
+				</div>
+				<div class="principal" id="campo">
+					<label for="mensagem"></label>
+					<textarea  cols="30" rows="31" id="resultado" class="campo-texto2" required></textarea>
+					<br>
+					<input type="submit" value="Copiar" class="botao" id="copia">
+				</div>
+			</section>
+		</main>
+		
+	
+		<footer>
+			<nav>
+				<ul class="contatos">
+					<li><a href="https://www.instagram.com/ivanfons"><img src="imagens\insta.png" alt="Logo Instagram"></a></li>
+					<li><a href="https://github.com/ivanfonss/"><img src="imagens\GitHub.png" alt="Logo GitHub"></a></li>
+					<li><a href="https://www.linkedin.com/in/ivan-fonseca-a930aa130/"><img src="imagens\linke.png" alt="Logo LinkedIn"></a></li>
+				</ul>
+			</nav>
+			<p class="autor">&copy; Desenvolvido por: Ivan Fonseca da Silva</p>
+		</footer>
+		<script src="encripitador.js" ></script>
+	</body>
+</html>
+	
